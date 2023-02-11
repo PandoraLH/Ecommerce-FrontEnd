@@ -134,7 +134,7 @@ const CartMenu = () => {
                 m: "20px 0",
               }}
               onClick={() => {
-                navigate("/checkout", {state : {totalPrice : totalPrice}});
+                navigate("/Ecommerce-FrontEnd/checkout", {state : {totalPrice : totalPrice}});
                 dispatch(setIsCartOpen({}));
               }}
             >

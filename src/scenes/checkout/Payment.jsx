@@ -27,7 +27,7 @@ const Payment = ({ totalPrice }) => {
           }}
           onApprove={async (data, actions) => {
             const details = await actions.order.capture();
-            navigate("/checkout/success");
+            navigate("/Ecommerce-FrontEnd/checkout/success");
           }}
         />
       </PayPalScriptProvider>

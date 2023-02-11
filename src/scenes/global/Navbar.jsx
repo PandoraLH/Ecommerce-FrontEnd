@@ -38,7 +38,7 @@ const Navbar = () => {
       alignItems="center"
     >
       <Box
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/Ecommerce-FrontEnd/")}
         sx={{ "&:hover": { cursor: "pointer" } }}
         color={shades.secondary[500]}
       >

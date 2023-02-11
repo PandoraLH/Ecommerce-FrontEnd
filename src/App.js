@@ -24,10 +24,10 @@ function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="item/:itemId" element={<ItemDetails />} />
-          <Route path="checkout" element={<Checkout />} />
-          <Route path="checkout/success" element={<Confirmation/>} />
+          <Route path="/Ecommerce-FrontEnd/" element={<Home />} />
+          <Route path="Ecommerce-FrontEnd/item/:itemId" element={<ItemDetails />} />
+          <Route path="Ecommerce-FrontEnd/checkout" element={<Checkout />} />
+          <Route path="Ecommerce-FrontEnd/checkout/success" element={<Confirmation/>} />
         </Routes>
         <CartMenu />
       </BrowserRouter>
